@@ -1,0 +1,32 @@
+{
+  "name": "part3-backend",
+  "version": "1.0.0",
+  "description": "puhluettelo_backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ethervortex/part3-backend.git"
+  },
+  "keywords": [
+    "fullstack"
+  ],
+  "author": "Teemu Ruokokoski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethervortex/part3-backend/issues"
+  },
+  "homepage": "https://github.com/Ethervortex/part3-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
